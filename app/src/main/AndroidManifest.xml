@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ingeniumbd.com.kidspoem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EnglishPoems" >
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+            </activity>
+
+        <activity android:name=".BanglaPoems" >
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity android:name=".EfirstPoem">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EnglishPoems" />
+        </activity>
+        <activity android:name=".EscondPoem">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EnglishPoems" />
+        </activity>
+        <activity android:name=".EthirdPoem">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EnglishPoems" />
+        </activity>
+        <activity android:name=".EfourthPoem">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EnglishPoems" />
+        </activity>
+        <activity android:name=".EfifthPoem">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EnglishPoems" />
+        </activity>
+        <activity android:name=".BfirstPoem">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BanglaPoems" />
+        </activity>
+        <activity android:name=".BscondPoem">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BanglaPoems" />
+        </activity>
+        <activity android:name=".BthirdPoem">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BanglaPoems" />
+        </activity>
+        <activity android:name=".BfourthPoem">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BanglaPoems" />
+        </activity>
+        <activity android:name=".BfifthPoem">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BanglaPoems" />
+        </activity>
+        <activity android:name=".EsixPoem" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EnglishPoems" />
+        </activity>
+
+        <activity android:name=".EsevenPoem" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EnglishPoems" />
+        </activity>
+
+        <activity android:name=".EeightPoem" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EnglishPoems" />
+        </activity>
+
+        <activity android:name=".EninePoem" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EnglishPoems" />
+        </activity>
+
+        <activity android:name=".EtenPoem" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EnglishPoems" />
+        </activity>
+
+        <activity android:name=".BsixPoem" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".BanglaPoems" />
+    </activity>
+
+        <activity android:name=".BsevenPoem" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BanglaPoems" />
+        </activity>
+
+        <activity android:name=".BeightPoem" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BanglaPoems" />
+        </activity>
+
+        <activity android:name=".BninePoem" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BanglaPoems" />
+        </activity>
+
+        <activity android:name=".BtenPoem">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BanglaPoems" />
+        </activity>
+    </application>
+
+</manifest>

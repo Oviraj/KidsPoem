@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_english_poems"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="ingeniumbd.com.kidspoem.EnglishPoems">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#2720e7"
+        android:textSize="10dp"
+        android:text="English Poems"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/firstBtn"
+        android:background="@drawable/custom_image_buttton"
+        android:layout_width="match_parent"
+        android:text="1.fjsdhkhgskj"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/scondBtn"
+        android:background="@drawable/custom_genarail_button"
+        android:layout_width="match_parent"
+        android:text="2.fjsdhkhgskj"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/thirdBtn"
+        android:background="@drawable/custom_image_buttton"
+        android:layout_width="match_parent"
+        android:text="3.fjsdhkhgskj"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/fourthBtn"
+        android:background="@drawable/custom_genarail_button"
+        android:layout_width="match_parent"
+        android:text="4.fjsdhkhgskj"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/fifthBtn"
+        android:background="@drawable/custom_image_buttton"
+        android:layout_width="match_parent"
+        android:text="5.fjsdhkhgskj"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/sixBtn"
+        android:background="@drawable/custom_genarail_button"
+        android:layout_width="match_parent"
+        android:text="4.fjsdhkhgskj"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/sevenBtn"
+        android:background="@drawable/custom_image_buttton"
+        android:layout_width="match_parent"
+        android:text="5.fjsdhkhgskj"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/eightBtn"
+        android:background="@drawable/custom_genarail_button"
+        android:layout_width="match_parent"
+        android:text="4.fjsdhkhgskj"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/nineBtn"
+        android:background="@drawable/custom_image_buttton"
+        android:layout_width="match_parent"
+        android:text="5.fjsdhkhgskj"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/tenBtn"
+        android:background="@drawable/custom_genarail_button"
+        android:layout_width="match_parent"
+        android:text="4.fjsdhkhgskj"
+        android:layout_height="wrap_content" />
+</LinearLayout>
